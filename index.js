@@ -14,6 +14,13 @@ const todo = {
             this.add();
             this.save();
         }
+
+        document.addEventListener('keydown', (e) => {
+            if(e.code === 'Enter') {
+                this.add();
+                this.save();
+            }
+        })
     },
 
     add() {

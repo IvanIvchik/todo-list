@@ -11,17 +11,18 @@
 
 <body>
     <div class="todo">
-        <div class="todo__input">
-            <input type="text" class="todo__text">
-            <span class="todo__add">
-            </span>
-        </div>
-        <select class="todo__options">
-            <option value="active">активные</option>
-            <option value="completed">завершённые</option>
-            <option value="deleted">удалённые</option>
-        </select>
-        <ul class="todo__items" data-todo-option="active"></ul>
+        <form action="">
+            <div class="todo__input">
+                <input type="text" class="todo__text">
+                <span class="todo__add"></span>
+        </form>
+    </div>
+    <select class="todo__options">
+        <option value="active">активные</option>
+        <option value="completed">завершённые</option>
+        <option value="deleted">удалённые</option>
+    </select>
+    <ul class="todo__items" data-todo-option="active"></ul>
     </div>
     <script src="./index.js"></script>
 </body>
